@@ -1,0 +1,97 @@
+:root {
+    --color-1:  #171d1e;
+    --color-2:  #293139;
+    --color-3:  #42505b;
+    --color-4:  #607d83;
+    --color-5:  #85aab1;
+    --font-familia1: 'Alkalami', serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    background-color: var(--color-1);
+}
+.main-container h1 {
+    font-weight: 500;
+    font-family: var(--font-familia1);
+    text-align: center;
+    color: var(--color-3);
+    font-size: 30px;
+}
+
+.main-container h2 {
+    font-family: var(--font-familia1);
+    text-align: center;   
+    font-size: 25px;
+    color: var(--color-4);
+    font-weight: 200;
+}
+.imagen {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+    
+
+}
+
+.imagen img {
+    max-width: 100%;
+    max-height: 50%;
+    display: block;
+}
+
+.informacion {
+    display: flex;
+    justify-content: center;
+    color: var(--color-5);
+    font-family: var(--font-familia1);
+    font-size: 20px;
+}
+
+section h3{
+    color: var(--color-4);
+    text-align: center;
+    margin-top: 25px;
+}
+
+section p {
+    color: var(--color-4);
+    text-align: center;
+    margin: 1cm 10cm 20px 10cm;
+    font-size: 20px;
+}
+
+.cita h4 {
+    text-align: center;
+    margin-top: 1cm;
+    margin-left: 29px;
+    margin-right: 29px;
+    color: var(--color-5);
+
+}
+
+.cita-parrafo__nombre {
+    display: flex;
+    justify-content: end;
+    margin-right: 8cm;
+    color: var(--color-3);
+}
+.informacion {
+    font-family: var(--font-familia1);
+    color: var(--color-2);
+}
+
+.informacion a {
+    text-decoration: none;
+    color: var(--color-2);
+    padding-left: 8px;
+    padding-bottom: 5px;
+    font-family: var(--font-familia1);
+    font-size: medium;
+}
+
